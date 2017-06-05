@@ -34,12 +34,12 @@ header .container {
     margin-right: 10px;
 }
 
-.unchecked {
+.todo {
     color: #000;
     text-decoration: none;
 }
 
-.checked {
+.complete {
     text-decoration: line-through;
     color: gray;
     font-style: italic;

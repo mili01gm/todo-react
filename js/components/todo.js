@@ -10,7 +10,7 @@ const TodoItem = (data, update) => {
     todo.append(span);
     todo.append(remove);
 
-    checkbox.on('chnage', (e) => {
+    checkbox.on('change', (e) => {
         data.completed = !data.completed;
         update();
     });
@@ -43,7 +43,7 @@ const Todo = () => {
     const list = $('<div clas="list"></div>');
     const hr = $('<hr>');
     const completedTitle = $('<p>Completed Items</p>');
-    const completedList = $('<div class="completed"></div>');
+    const completedList = $('<div class="complete"></div>');
 
     parent.append(input);
     parent.append(todoTitle);
